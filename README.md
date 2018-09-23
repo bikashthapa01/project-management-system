@@ -1,2 +1,2 @@
-# project-management-system
-5th Semester DBMS Project
+# Projects Management System
+5th Semester DBMS lab Project
