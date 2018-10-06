@@ -80,9 +80,9 @@ img {
     margin: 0;
     text-transform: uppercase;
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: inherit;
-    letter-spacing: 4px;
+    letter-spacing: 15px;
     opacity: 1;
 }
 .home_info h3 {
