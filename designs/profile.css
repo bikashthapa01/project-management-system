@@ -40,6 +40,10 @@ img {
    float: left;
    width: 30%;
 }
+.site-branding a {
+    color:#fff;
+    text-decoration: none;
+}
 
 .site-branding h1 {
     margin: 0;
@@ -169,7 +173,29 @@ img {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+.proj_content {
+    margin:auto;
+    max-width: 1045px;
+    color: #fff;
+    font-family: inherit;
+}
+.proj {
+    background-image: linear-gradient(to bottom,#000000bd,#000000ad),url(home-bg.jpg);
+    background-size: cover;
+    padding: 1rem;
+}
+.proj_box_content {
+    overflow: hidden;
+}
+.pro_box {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+}
 
+.pro_box.fourth {
+    margin-right: 0;
+}
 /*Home Page Content styles*/
 
 .profile-header {
@@ -382,11 +408,6 @@ img {
 }
 .home_info {
     height: 83vh;
-    
-    /*background-position:center;*/
-    background-position-x: 70%;
-    background-position-y: 85%;
-
 }
 
 
@@ -395,6 +416,7 @@ img {
     background-image: linear-gradient(to bottom,#000000bd,#000000ad),url(home-bg.jpg);
     margin:0;
     max-width: 100%;
+    background-size: contain;
 }
 
 .signup  {
