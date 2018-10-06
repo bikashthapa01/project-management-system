@@ -191,11 +191,31 @@ img {
     width: 23.5%;
     float: left;
     margin-right: 2%;
+    position: relative;
+}
+.pro_box img {
+    border-radius: 5px;
+    height: 150px;
 }
 
 .pro_box.fourth {
     margin-right: 0;
 }
+
+.pro_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.pro_title h5 {
+    font-size: 18px;
+    background: #0000003b;
+    padding: 1rem;
+    width: 100%;
+}
+
 /*Home Page Content styles*/
 
 .profile-header {
