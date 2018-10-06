@@ -154,10 +154,16 @@ img {
 }
 .h_title {
     margin-bottom: 3rem;
+    letter-spacing: 3px;
 }
 .features_header h3 {
     font-size:24px;
     margin: 0; 
+}
+
+.features_content {
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*Home Page Content styles*/
