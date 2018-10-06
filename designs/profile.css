@@ -20,11 +20,16 @@ img {
     color: #111;
 }
 .header {
-    background: #2196F3;
+    /*background: #2196F3;*/
     background-image: linear-gradient(to bottom,#000000bd,#000000ad),url(home-bg.jpg);
     padding: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+
+}
+
+.login-header {
+    background: transparent;
 }
 .header-content {
      margin: auto;
@@ -109,7 +114,7 @@ img {
 .btns a {
     text-decoration: none;
     color: #fff;
-    background: #00BCD4;
+    background: #2496f3;
     padding: 15px 30px;
     border-radius: 3px;
     font-size: 18px;
@@ -129,12 +134,11 @@ img {
     height: auto;
     display: block;
     overflow: hidden;
-    min-height: 81.5vh;
-
-
-
+    
 }
-
+.set-height {
+    min-height: 81.5vh;
+}
 /*Home Page Content styles*/
 .box_content {
     overflow: hidden;
@@ -328,11 +332,17 @@ img {
     color: darkblue;
 }
 
+
 .footer {
     background: #2496f3;
     padding: 1rem;
     color: #fff;
     box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.16), 2px 0 0 1px rgba(0,0,0,0.08);
+
+}
+.login-footer {
+    background: transparent;
+    box-shadow: none;
 
 }
 .footer-content {
@@ -382,7 +392,7 @@ img {
 
 /*Signup form start*/
 .login {
-    background-image: linear-gradient(to bottom,#00000045,#00000091),url(home-bg.jpg);
+    background-image: linear-gradient(to bottom,#000000bd,#000000ad),url(home-bg.jpg);
     margin:0;
     max-width: 100%;
 }
